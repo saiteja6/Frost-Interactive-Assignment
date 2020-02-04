@@ -1,0 +1,33 @@
+.grid-addr{
+    display: grid;
+    /* color: navy; */
+    grid-template-columns: 200px auto;
+}
+
+th, td{
+    padding:12px ;
+}
+
+.method {
+    color: #8492a6;
+    padding: 5px;
+    float: left;
+    width: 250px;
+}
+
+.products {
+    color: #4a5566;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.margin-viewport{
+    margin: 25px;
+}
+.grid::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+
+
